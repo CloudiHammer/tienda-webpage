@@ -29,7 +29,7 @@ export const AdminProductPage = () => {
         });
         navigate(`/admin/products/${data.id}`);
       },
-      onError: (error) => {
+      onError: () => {
         toast.error('Error al guardar el producto');
       }
     });
