@@ -11,7 +11,7 @@ import { useNavigate } from 'react-router';
 
 export const RegisterPage = () => {
   const navigate = useNavigate();
-  const [isLoading, setIsLoading] = useState(false);
+  const [, setIsLoading] = useState(false);
 
   const handleRegister = async (event: FormEvent<HTMLFormElement>) => {
     event.preventDefault();
